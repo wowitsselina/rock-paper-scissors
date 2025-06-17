@@ -74,9 +74,6 @@ void RPSGame::graphic(const string& player) {
 }
 
 int RPSGame::whowon() {
-    if (player1 == player2) {
-        return 0; 
-    }
     if (player1 == player2)
         return 0; 
     
