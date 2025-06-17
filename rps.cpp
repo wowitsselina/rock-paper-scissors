@@ -78,7 +78,7 @@ int RPSGame::whowon() {
         return 0; 
     
     if ((player1 == "R" && player2 == "P") || (player1 == "S" && player2 == "R"))
-      return 2;
+        return 2;
 
     return 1;
 }
